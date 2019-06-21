@@ -14,3 +14,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Inherit common board flags
 include device/samsung/universal9810-common/BoardConfigCommon.mk
+
+# Use mke2fs to create ext4 images
+TARGET_USES_MKE2FS := true

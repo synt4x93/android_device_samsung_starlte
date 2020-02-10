@@ -1,0 +1,5 @@
+# Camera
+lib/libFaceBlurDetection.camera.samsung.so
+lib/libFacePreProcessing.camera.samsung.so
+lib/libFacePreProcessing_jni.camera.samsung.so
+lib/libFacialBasedSelfieCorrection.camera.samsung.so

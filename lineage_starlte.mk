@@ -35,8 +35,8 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-BUILD_FINGERPRINT := samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXU7DTAA:user/release-keys
-
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ1B.200205.002/6084387:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
+        TARGET_DEVICE=starltexx \
         PRODUCT_NAME=starltexx \
         PRIVATE_BUILD_DESC="starltexx-user 10 QP1A.190711.020 G960FXXU7DTAA release-keys"

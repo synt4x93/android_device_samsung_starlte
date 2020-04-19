@@ -40,3 +40,7 @@ BUILD_FINGERPRINT := samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXU7DTAA:
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=starltexx \
         PRIVATE_BUILD_DESC="starltexx-user 10 QP1A.190711.020 G960FXXU7DTAA release-keys"
+
+# OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/synt4x93/OTA/master/starlte.json

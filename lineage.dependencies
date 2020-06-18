@@ -1,7 +1,7 @@
 [
     {
         "repository": "synt4x93/android_device_samsung_universal9810-common",
-        "target_path": "device/samsung/universal9810-common"
+        "target_path": "device/samsung/universal9810-common",
         "remote": "github",
         "revision": "lineage-17.1"
     }
